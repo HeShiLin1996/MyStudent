@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>c03-render</title>
+  </head>
+  <body>
+    <div id="app">
+      <button type="button" @click = 'get'>GET</button>
+      <button type="button" @click = 'post'>POST</button>
+      <ul>
+        <li v-for="(item,index) in contentlist" :key='index'>
+          <p>{{item.ct}}</p>
+          <h3>{{item.title}}</h3>
+          <img :src = 'item.img' width="350px" alt="">
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

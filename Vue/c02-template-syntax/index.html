@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>c02-template-syntax</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- 文本渲染 -->
+      <p>时间：{{time}}</p>
+      <p v-text="'地址：'+address"></p>
+      <template>
+        <p>天气：{{weather}}</p>
+      </template>
+      <!-- v-html渲染 -->
+      <p v-html="htmlStr"></p>
+      <!-- v-bind属性(可以不写) -->
+      <!-- v-on:绑定事件 -->
+      <p><button type="button" v-on:click = 'hidden = !hidden'>显示/隐藏</button></p>
+      <p><button type="button" @click = 'hidden = !hidden'>显示/隐藏</button></p>
+      <h3 v-if="!hidden">逛吃逛吃</h3>
+      <img v-bind:src="imglink" :title="imgtitle" :class="{'hidden':hidden}">
+    </div>
+  </body>
+</html>

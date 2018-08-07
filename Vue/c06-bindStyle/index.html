@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>c03-render</title>
+  </head>
+  <body>
+    <div id="app">
+      <div :class = "className"></div>
+      <!-- 是否设置classname为box -->
+      <!-- 取决于isBox的值 为true添加 反之 -->
+      <div :class = "{'box': isBox}"></div>
+      <div :class = "classObj"></div>
+      <div :class = "[class1,class2]"></div>
+
+      <div :style = "{borderRadius:'10px',background:'orange'}" 
+           :class = "className"></div>
+      <div :style = "{borderRadius:radius,background:bgColor}" 
+           :class = "className"></div>
+      <div :class = "className" 
+           :style = "styleObj"></div>
+    </div>
+  </body>
+</html>

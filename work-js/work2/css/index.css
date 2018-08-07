@@ -1,0 +1,28 @@
+form{
+    width: 500px;
+    height: 200px;
+    margin: 300px 700px;
+    background: aqua;
+    border-top:10px solid cornflowerblue ;
+    border-radius: 20px;
+    padding: 100px 100px 0 100px;
+}
+input{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;;
+    outline: none;
+    font-size: 25px;
+    text-indent: 1em;
+}
+select{
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 25px;
+    text-align: center;
+}
+span{
+    font-size: 25px;
+}

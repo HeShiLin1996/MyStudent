@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+h1,h3{
+    display: inline-block;
+    margin-left: 200px;
+}
+header{
+    background: chocolate;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+form{
+    text-align: center;
+    margin-left: -30px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    padding:0 20px ;
+}
+button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    outline: none;
+}
+table {
+    width: 1400px;
+    margin: 50px auto;
+    background: #cccccc;
+}
+th{
+    width: 1400px;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: normal;
+}
+
+td {
+    padding: 5px 0;
+    text-align: center;
+    height: 50px;
+}

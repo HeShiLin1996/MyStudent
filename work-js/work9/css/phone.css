@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+header,footer,.img2{
+    display: none;
+}
+ul li{
+    list-style: none;
+}
+main{
+    margin-top: 30%;
+    text-align: center;
+}
+form{
+    margin-top: 50px;
+    font-size: 0;
+}
+input{
+    width: 30%;
+    height: 40px;
+    border: 1px solid;
+}
+button{
+    width: 10%;
+    height: 44px;
+    background: #2371D3;
+}
+.menu_list li{
+    display: inline-block;
+    margin: 60px 5px;
+    width: 5%;
+}

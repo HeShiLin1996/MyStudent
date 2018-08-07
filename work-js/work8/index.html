@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+<h1>图书管理</h1>
+<h3>Library Manager</h3>
+</header>
+<main>
+    <form action="">
+        <label for="">共有：<span id="len"></span>本，选中0本</label>
+        <input type="text" id="search" placeholder="请输入图书的名称或者作者进行搜索">
+        <button type="button">搜索</button>
+    </form>
+    <table id="book" border="" cellspacing="0">
+        <tr id="book-tr">
+            <td width="20%">书名</td>
+            <td width="60%" class="td2">描述</td>
+            <td width="20%">作者</td>
+        </tr>
+    </table>
+</main>
+<script src="js/book-info.js"></script>
+</body>
+</html>

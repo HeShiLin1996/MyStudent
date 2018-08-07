@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+.size{
+    font-size: 16px;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    background: #666666;
+    margin: 30px 0;
+}
+.radius{
+    border-radius: 10px;
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/LHYAlertView.css">
+    <title>Document</title>
+</head>
+<body>
+
+</div>
+<form name="myForm" action="" method="POST" target="_blank">
+    <fieldset class="fie">
+        <legend>商品信息</legend>
+        <button type="button" class="add_btn">添加商品</button>
+        <table cellspacing="0" border="" class="tb">
+            <thead class="thd">
+                <tr>
+                    <td class="td" id="num">序号</td>
+                    <td class="td">商品编号</td>
+                    <td class="td">商品名称</td>
+                    <td class="td">商品分类</td>
+                    <td class="td">商品库存</td>
+                    <td class="td">商品售价</td>
+                    <td class="td">商品描述</td>
+                    <td class="td">更新时间</td>
+                    <td class="td">操作</td>
+                </tr>
+            </thead>
+            <tbody class="tbd">
+
+            </tbody>
+        </table>
+    </fieldset>
+    <div id="mask" >
+        <div class="ct">
+            <form action="#" name="myForm" class="form" id="goodsForm">
+                <input type="text" placeholder="请输入商品编号" class="goods-input" id="int">
+                <input type="text" placeholder="请输入商品名称" class="goods-input" id="nam">
+                <input type="text" placeholder="请输入商品分类" class="goods-input" id="typ">
+                <input type="text" placeholder="请输入商品库存" class="goods-input" id="sto">
+                <input type="text" placeholder="请输入商品单价" class="goods-input" id="muc">
+                <input type="text" placeholder="请输入商品描述" class="goods-input" id="des">
+                <br>
+                <button class="add-edit-btn" id="edi" type="button">确认添加</button>
+                <button type="button" class="add-edit-btn" id="deth">取消</button>
+            </form>
+        </div>
+
+</form>
+
+
+<script src="js/functions.js"></script>
+<script src="js/index.js"></script>
+<script src="js/LHYAlertView.js"></script>
+</body>
+</html>
